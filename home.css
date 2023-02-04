@@ -1,0 +1,237 @@
+
+body{
+  background-image: url("bacground2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 670px;
+}
+.logoh{
+  text-align: center;
+  display: flex;
+  margin: auto;
+  margin-left: 20%;
+  text-shadow: 3px 3px 3px yellowgreen;
+}
+.cont{
+  display: flex;
+}
+.b1{
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  margin: 30px 0 0 3%;
+  text-align: center;
+}
+.i{
+  height: 100%;
+  height: 550px;
+  margin: 0 0 0 20%;
+  box-shadow: 3px 3px 3px rgb(17, 0, 255);
+
+
+}
+h1{
+  margin: 60px 0 0 0;
+  font-size: 35px;
+  color: blue;
+}
+h3{
+  margin: 60px 0 0 0;
+  font-size: 26px;
+  color: orangered;
+  text-shadow: 3px 3px 3px rgb(17, 0, 255);
+
+}
+.b1 button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+  box-shadow: 3px 3px 3px yellowgreen;
+
+  }
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  /* The Modal (background) */
+  .homecare {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 50px;
+  }
+  /* Modal Content/Box */
+  .imgcontainer {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  .close {
+    margin: 55px 7% 0 0;
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+  /* login page */
+
+  .body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Jost', sans-serif;
+	border-radius: 20px;
+    background-image: url("bg2.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+
+}
+.main{
+	width: 350px;
+	height: 500px;
+	overflow: hidden;
+	background: linear-gradient(to bottom, #241b6e, #302b63, #242699);
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+	margin: 20px;
+}
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 40px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+input{
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+.signup button:hover{
+	background: #6d44b8;
+    text-shadow: 2px 2px 2px green;
+    box-shadow: 2px 2px 2px green;
+    /* color:green; */
+    font-size: 22px;
+}
+button:hover{
+	background: #6d44b8;
+}
+.login{
+	height: 460px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+    background: linear-gradient(to bottom, #dbdbd4, #3a375c, #00000a);
+}
+.login label{
+	color: #573b8a;
+	transform: scale(.6);
+}
+.login label:hover{
+    font-size: 38px;
+    color: green;
+    text-shadow: 2px 2px 2px green;
+}
+label:hover{
+    font-size: 38px;
+    color: green;
+    text-shadow: 2px 2px 2px green;
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" type="text/css" href="copy.css">
+</head>
+<body>
+    <div class="logoh">
+        <img src="logo1.png" alt="">
+    <h1>HOME CARE SERVICES...</h1>
+    </div>
+    <div class="cont">
+        <img class="i" src="servman3.jpg" alt="">
+    <div class="b1">
+        <h3>Register hear for use more fiturse</h3>
+        <br><br>
+        <button onclick="document.getElementById('login1').style.display='block'" style="width:auto;">Register Hear</button>
+    </div>
+    </div>
+    
+    <div id="login1" class="homecare">
+        <form class="loginform" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('login1').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <div class="body">
+                <div class="main">  	
+                    <input type="checkbox" id="chk" aria-hidden="true">
+            
+                        <div class="signup">
+                            <form>
+                                <label for="chk" aria-hidden="true">Sign up</label>
+                                <input type="text" name="txt" placeholder="User name" required="">
+                                <input type="email" name="email" placeholder="Email" required="">
+                                <input type="password" name="pswd" placeholder="Password" required="">
+                                <button>Sign up</button>
+                            </form>
+                        </div>
+            
+                        <div class="login">
+                            <form>
+                                <label for="chk" aria-hidden="true">Login</label>
+                                <input type="email" name="email" placeholder="Email" required="">
+                                <input type="password" name="pswd" placeholder="Password" required="">
+                                <button>Login</button>
+                            </form>
+                        </div>
+                </div>
+              </div>
+            </div>
+
+
+          </form>
+    </div>
+</body>
+</html>
