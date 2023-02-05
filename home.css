@@ -1,19 +1,24 @@
 
+
 body{
   background-image: url("bacground2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 670px;
+  height: 100vh;
 }
 .logoh{
-  text-align: center;
   display: flex;
   margin: auto;
-  margin-left: 20%;
+  margin-left: 28%;
   text-shadow: 3px 3px 3px yellowgreen;
+}
+.logoh img{
+  width: 25vw;
 }
 .cont{
   display: flex;
+  margin: auto;
+  margin-top: 5vh;
 }
 .b1{
   height: 100%;
@@ -24,11 +29,9 @@ body{
 }
 .i{
   height: 100%;
-  height: 550px;
+  height: 70vh;
   margin: 0 0 0 20%;
   box-shadow: 3px 3px 3px rgb(17, 0, 255);
-
-
 }
 h1{
   margin: 60px 0 0 0;
@@ -235,3 +238,4 @@ label:hover{
 #chk:checked ~ .signup label{
 	transform: scale(.6);
 }
+
