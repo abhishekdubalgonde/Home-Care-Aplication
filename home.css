@@ -28,7 +28,7 @@ body{
   text-align: center;
 }
 .i{
-  height: 100%;
+  width: 20vw;
   height: 70vh;
   margin: 0 0 0 20%;
   box-shadow: 3px 3px 3px rgb(17, 0, 255);
